@@ -1,2 +1,3 @@
 'use strict';
-document.write('Hello, world.');
+require('./style.css');
+document.write(require('./content'));
