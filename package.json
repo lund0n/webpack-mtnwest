@@ -1,0 +1,46 @@
+{
+  "name": "webpack-mtnwest",
+  "description": "Demo of Webpack Features",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/app.js",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "faker": "^2.1.2",
+    "localforage": "^1.2.2",
+    "moment": "^2.9.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.9.1",
+    "es5-shim": "^4.1.0",
+    "istanbul-instrumenter-loader": "^0.1.2",
+    "jasmine-core": "^2.2.0",
+    "jshint": "^2.6.0",
+    "jshint-loader": "^0.8.2",
+    "json-loader": "^0.5.1",
+    "karma": "^0.12.31",
+    "karma-coverage": "^0.2.7",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-sourcemap-loader": "^0.3.3",
+    "karma-webpack": "^1.5.0",
+    "style-loader": "^0.8.3",
+    "webpack": "^1.6.0"
+  },
+  "scripts": {},
+  "keywords": [
+    "front end",
+    "webpack"
+  ],
+  "engines": {
+    "node": ">= 0.9"
+  },
+  "author": {
+    "name": "Jeremy Lund",
+    "email": "jeremy.r.lund@gmail.com",
+    "url": "https://github.com/lund0n"
+  },
+  "license": "COPYRIGHT"
+}
