@@ -1,7 +1,6 @@
 .idea
-bundle.js
-bundle.js.map
+grocery-app.js*
+todo-app.js*
 coverage
 node_modules
 npm-debug.log
-*.iml

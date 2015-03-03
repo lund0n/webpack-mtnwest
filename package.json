@@ -13,6 +13,8 @@
     "moment": "^2.9.0"
   },
   "devDependencies": {
+    "babel-core": "^4.6.5",
+    "babel-loader": "^4.0.0",
     "css-loader": "^0.9.1",
     "es5-shim": "^4.1.0",
     "istanbul-instrumenter-loader": "^0.1.2",

@@ -1,0 +1,13 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+li.completed {
+  text-decoration: line-through;
+}
