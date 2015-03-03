@@ -1,4 +1,5 @@
 .idea
+init.js*
 grocery-app.js*
 todo-app.js*
 coverage

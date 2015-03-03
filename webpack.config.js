@@ -1,3 +1,5 @@
+var webpack = require('webpack');
+var commonsChunkPlugin = new webpack.optimize.CommonsChunkPlugin('init.js');
 module.exports = {
   entry: {
     'grocery-app': './app/grocery-entry.js',
@@ -12,5 +14,9 @@ module.exports = {
       {test: /\.css$/, loader: 'style!css'},
       {test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/}
     ]
-  }
+  },
+  externals: [
+    'moment'
+  ],
+  plugins: [ commonsChunkPlugin ]
 };
